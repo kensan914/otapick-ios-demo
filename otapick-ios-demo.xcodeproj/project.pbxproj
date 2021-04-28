@@ -26,6 +26,7 @@
 		C9469ECB2639D04B0043D306 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9469ECA2639D04B0043D306 /* Group.swift */; };
 		C9469ECF2639DDC90043D306 /* SpinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9469ECE2639DDC90043D306 /* SpinnerView.swift */; };
 		C9469ED32639E4CA0043D306 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9469ED22639E4CA0043D306 /* SafariView.swift */; };
+		C9469ED62639EA840043D306 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9469ED52639EA840043D306 /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		C9469ECA2639D04B0043D306 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
 		C9469ECE2639DDC90043D306 /* SpinnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerView.swift; sourceTree = "<group>"; };
 		C9469ED22639E4CA0043D306 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		C9469ED52639EA840043D306 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 		C9469E83263945BF0043D306 /* otapick-ios-demo */ = {
 			isa = PBXGroup;
 			children = (
+				C9469ED42639EA590043D306 /* Constants */,
 				C9469EBB263954D80043D306 /* ViewModels */,
 				C9469EB82639532E0043D306 /* Fetchers */,
 				C9469EB5263948FE0043D306 /* Models */,
@@ -199,6 +202,14 @@
 				C9469EBC263954FB0043D306 /* BlogListViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C9469ED42639EA590043D306 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				C9469ED52639EA840043D306 /* Utils.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -337,6 +348,7 @@
 				C9469EC326396B450043D306 /* BlogDetailView.swift in Sources */,
 				C9469ECB2639D04B0043D306 /* Group.swift in Sources */,
 				C9469ED32639E4CA0043D306 /* SafariView.swift in Sources */,
+				C9469ED62639EA840043D306 /* Utils.swift in Sources */,
 				C9469EBA2639539F0043D306 /* Blog.swift in Sources */,
 				C9469EBD263954FB0043D306 /* BlogListViewModel.swift in Sources */,
 				C9469ECF2639DDC90043D306 /* SpinnerView.swift in Sources */,
