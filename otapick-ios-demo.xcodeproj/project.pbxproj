@@ -99,6 +99,8 @@
 		C9469E83263945BF0043D306 /* otapick-ios-demo */ = {
 			isa = PBXGroup;
 			children = (
+				C9469EB5263948FE0043D306 /* Models */,
+				C9469EB4263948E80043D306 /* Views */,
 				C9469E84263945BF0043D306 /* AppDelegate.swift */,
 				C9469E86263945BF0043D306 /* SceneDelegate.swift */,
 				C9469E88263945BF0043D306 /* ContentView.swift */,
@@ -134,6 +136,20 @@
 				C9469EA8263945C10043D306 /* Info.plist */,
 			);
 			path = "otapick-ios-demoUITests";
+			sourceTree = "<group>";
+		};
+		C9469EB4263948E80043D306 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C9469EB5263948FE0043D306 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
