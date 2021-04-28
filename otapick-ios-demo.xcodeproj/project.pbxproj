@@ -9,12 +9,23 @@
 /* Begin PBXBuildFile section */
 		C9469E85263945BF0043D306 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9469E84263945BF0043D306 /* AppDelegate.swift */; };
 		C9469E87263945BF0043D306 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9469E86263945BF0043D306 /* SceneDelegate.swift */; };
-		C9469E89263945BF0043D306 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9469E88263945BF0043D306 /* ContentView.swift */; };
 		C9469E8B263945C10043D306 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9469E8A263945C10043D306 /* Assets.xcassets */; };
 		C9469E8E263945C10043D306 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9469E8D263945C10043D306 /* Preview Assets.xcassets */; };
 		C9469E91263945C10043D306 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9469E8F263945C10043D306 /* LaunchScreen.storyboard */; };
 		C9469E9C263945C10043D306 /* otapick_ios_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9469E9B263945C10043D306 /* otapick_ios_demoTests.swift */; };
 		C9469EA7263945C10043D306 /* otapick_ios_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9469EA6263945C10043D306 /* otapick_ios_demoUITests.swift */; };
+		C9469EB726394AC80043D306 /* BlogListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9469EB626394AC80043D306 /* BlogListView.swift */; };
+		C9469EBA2639539F0043D306 /* Blog.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9469EB92639539F0043D306 /* Blog.swift */; };
+		C9469EBD263954FB0043D306 /* BlogListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9469EBC263954FB0043D306 /* BlogListViewModel.swift */; };
+		C9469EBF263959590043D306 /* BlogsFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9469EBE263959590043D306 /* BlogsFetcher.swift */; };
+		C9469EC126396B040043D306 /* BlogCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9469EC026396B040043D306 /* BlogCellView.swift */; };
+		C9469EC326396B450043D306 /* BlogDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9469EC226396B450043D306 /* BlogDetailView.swift */; };
+		C9469EC526396EF40043D306 /* BlogCellInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9469EC426396EF40043D306 /* BlogCellInfo.swift */; };
+		C9469EC7263972660043D306 /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9469EC6263972660043D306 /* Member.swift */; };
+		C9469EC92639CA120043D306 /* BlogListTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9469EC82639CA120043D306 /* BlogListTabView.swift */; };
+		C9469ECB2639D04B0043D306 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9469ECA2639D04B0043D306 /* Group.swift */; };
+		C9469ECF2639DDC90043D306 /* SpinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9469ECE2639DDC90043D306 /* SpinnerView.swift */; };
+		C9469ED32639E4CA0043D306 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9469ED22639E4CA0043D306 /* SafariView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +49,6 @@
 		C9469E81263945BF0043D306 /* otapick-ios-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "otapick-ios-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9469E84263945BF0043D306 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9469E86263945BF0043D306 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C9469E88263945BF0043D306 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C9469E8A263945C10043D306 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9469E8D263945C10043D306 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C9469E90263945C10043D306 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +59,18 @@
 		C9469EA2263945C10043D306 /* otapick-ios-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "otapick-ios-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9469EA6263945C10043D306 /* otapick_ios_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = otapick_ios_demoUITests.swift; sourceTree = "<group>"; };
 		C9469EA8263945C10043D306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9469EB626394AC80043D306 /* BlogListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogListView.swift; sourceTree = "<group>"; };
+		C9469EB92639539F0043D306 /* Blog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blog.swift; sourceTree = "<group>"; };
+		C9469EBC263954FB0043D306 /* BlogListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogListViewModel.swift; sourceTree = "<group>"; };
+		C9469EBE263959590043D306 /* BlogsFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogsFetcher.swift; sourceTree = "<group>"; };
+		C9469EC026396B040043D306 /* BlogCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogCellView.swift; sourceTree = "<group>"; };
+		C9469EC226396B450043D306 /* BlogDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogDetailView.swift; sourceTree = "<group>"; };
+		C9469EC426396EF40043D306 /* BlogCellInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogCellInfo.swift; sourceTree = "<group>"; };
+		C9469EC6263972660043D306 /* Member.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
+		C9469EC82639CA120043D306 /* BlogListTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogListTabView.swift; sourceTree = "<group>"; };
+		C9469ECA2639D04B0043D306 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		C9469ECE2639DDC90043D306 /* SpinnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerView.swift; sourceTree = "<group>"; };
+		C9469ED22639E4CA0043D306 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,11 +121,12 @@
 		C9469E83263945BF0043D306 /* otapick-ios-demo */ = {
 			isa = PBXGroup;
 			children = (
+				C9469EBB263954D80043D306 /* ViewModels */,
+				C9469EB82639532E0043D306 /* Fetchers */,
 				C9469EB5263948FE0043D306 /* Models */,
 				C9469EB4263948E80043D306 /* Views */,
 				C9469E84263945BF0043D306 /* AppDelegate.swift */,
 				C9469E86263945BF0043D306 /* SceneDelegate.swift */,
-				C9469E88263945BF0043D306 /* ContentView.swift */,
 				C9469E8A263945C10043D306 /* Assets.xcassets */,
 				C9469E8F263945C10043D306 /* LaunchScreen.storyboard */,
 				C9469E92263945C10043D306 /* Info.plist */,
@@ -141,6 +164,13 @@
 		C9469EB4263948E80043D306 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C9469EB626394AC80043D306 /* BlogListView.swift */,
+				C9469EC026396B040043D306 /* BlogCellView.swift */,
+				C9469EC226396B450043D306 /* BlogDetailView.swift */,
+				C9469EC426396EF40043D306 /* BlogCellInfo.swift */,
+				C9469EC82639CA120043D306 /* BlogListTabView.swift */,
+				C9469ECE2639DDC90043D306 /* SpinnerView.swift */,
+				C9469ED22639E4CA0043D306 /* SafariView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -148,8 +178,27 @@
 		C9469EB5263948FE0043D306 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				C9469EB92639539F0043D306 /* Blog.swift */,
+				C9469EC6263972660043D306 /* Member.swift */,
+				C9469ECA2639D04B0043D306 /* Group.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		C9469EB82639532E0043D306 /* Fetchers */ = {
+			isa = PBXGroup;
+			children = (
+				C9469EBE263959590043D306 /* BlogsFetcher.swift */,
+			);
+			path = Fetchers;
+			sourceTree = "<group>";
+		};
+		C9469EBB263954D80043D306 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C9469EBC263954FB0043D306 /* BlogListViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,9 +332,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9469EC92639CA120043D306 /* BlogListTabView.swift in Sources */,
+				C9469EB726394AC80043D306 /* BlogListView.swift in Sources */,
+				C9469EC326396B450043D306 /* BlogDetailView.swift in Sources */,
+				C9469ECB2639D04B0043D306 /* Group.swift in Sources */,
+				C9469ED32639E4CA0043D306 /* SafariView.swift in Sources */,
+				C9469EBA2639539F0043D306 /* Blog.swift in Sources */,
+				C9469EBD263954FB0043D306 /* BlogListViewModel.swift in Sources */,
+				C9469ECF2639DDC90043D306 /* SpinnerView.swift in Sources */,
+				C9469EBF263959590043D306 /* BlogsFetcher.swift in Sources */,
+				C9469EC126396B040043D306 /* BlogCellView.swift in Sources */,
+				C9469EC526396EF40043D306 /* BlogCellInfo.swift in Sources */,
 				C9469E85263945BF0043D306 /* AppDelegate.swift in Sources */,
 				C9469E87263945BF0043D306 /* SceneDelegate.swift in Sources */,
-				C9469E89263945BF0043D306 /* ContentView.swift in Sources */,
+				C9469EC7263972660043D306 /* Member.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
