@@ -23,7 +23,7 @@ struct BlogDetailView: View {
                 Text(blog.writer.name)
             }
             Section(header: Text("リンク")) {
-                LinkButton(url: "https://otapick.com" + blog.url, label: "ヲタピックで閲覧する")
+                LinkButton(url: otapickUrl + blog.url, label: "ヲタピックで閲覧する")
                 LinkButton(url: blog.officialUrl, label: "公式ブログで閲覧する")
             }
         }

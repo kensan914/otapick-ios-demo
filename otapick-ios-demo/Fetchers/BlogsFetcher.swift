@@ -10,7 +10,7 @@ import Foundation
 
 class BlogsFetcher {
     private let group: Group
-    private var url = "https://otapick.com/api/blogs/"
+    private var url = otapickUrl + "/api/blogs/"
     private let qParams = "?sort=newer_post"
     
     init(group: Group) {
@@ -19,10 +19,8 @@ class BlogsFetcher {
     }
 
     func fetchBlogs(then: @escaping ([Blog]) -> Void) {
-        print("fetchBlogs")
         URLSession.shared.dataTask(with: URL(string: url + qParams)!) { (data, response, error) in
             guard let data = data else { return }
-            print(data)
             let decoder: JSONDecoder = JSONDecoder()
             do {
                 let blogsData = try decoder.decode([Blog].self, from: data)
