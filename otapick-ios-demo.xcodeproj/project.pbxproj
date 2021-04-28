@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9469E85263945BF0043D306 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9469E84263945BF0043D306 /* AppDelegate.swift */; };
+		C9469E87263945BF0043D306 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9469E86263945BF0043D306 /* SceneDelegate.swift */; };
+		C9469E89263945BF0043D306 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9469E88263945BF0043D306 /* ContentView.swift */; };
+		C9469E8B263945C10043D306 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9469E8A263945C10043D306 /* Assets.xcassets */; };
+		C9469E8E263945C10043D306 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9469E8D263945C10043D306 /* Preview Assets.xcassets */; };
+		C9469E91263945C10043D306 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9469E8F263945C10043D306 /* LaunchScreen.storyboard */; };
+		C9469E9C263945C10043D306 /* otapick_ios_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9469E9B263945C10043D306 /* otapick_ios_demoTests.swift */; };
+		C9469EA7263945C10043D306 /* otapick_ios_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9469EA6263945C10043D306 /* otapick_ios_demoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9469E98263945C10043D306 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9469E79263945BE0043D306 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9469E80263945BF0043D306;
+			remoteInfo = "otapick-ios-demo";
+		};
+		C9469EA3263945C10043D306 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9469E79263945BE0043D306 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9469E80263945BF0043D306;
+			remoteInfo = "otapick-ios-demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C9469E81263945BF0043D306 /* otapick-ios-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "otapick-ios-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9469E84263945BF0043D306 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C9469E86263945BF0043D306 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C9469E88263945BF0043D306 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C9469E8A263945C10043D306 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9469E8D263945C10043D306 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C9469E90263945C10043D306 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C9469E92263945C10043D306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9469E97263945C10043D306 /* otapick-ios-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "otapick-ios-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9469E9B263945C10043D306 /* otapick_ios_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = otapick_ios_demoTests.swift; sourceTree = "<group>"; };
+		C9469E9D263945C10043D306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9469EA2263945C10043D306 /* otapick-ios-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "otapick-ios-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9469EA6263945C10043D306 /* otapick_ios_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = otapick_ios_demoUITests.swift; sourceTree = "<group>"; };
+		C9469EA8263945C10043D306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9469E7E263945BF0043D306 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9469E94263945C10043D306 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9469E9F263945C10043D306 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9469E78263945BE0043D306 = {
+			isa = PBXGroup;
+			children = (
+				C9469E83263945BF0043D306 /* otapick-ios-demo */,
+				C9469E9A263945C10043D306 /* otapick-ios-demoTests */,
+				C9469EA5263945C10043D306 /* otapick-ios-demoUITests */,
+				C9469E82263945BF0043D306 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9469E82263945BF0043D306 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9469E81263945BF0043D306 /* otapick-ios-demo.app */,
+				C9469E97263945C10043D306 /* otapick-ios-demoTests.xctest */,
+				C9469EA2263945C10043D306 /* otapick-ios-demoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9469E83263945BF0043D306 /* otapick-ios-demo */ = {
+			isa = PBXGroup;
+			children = (
+				C9469E84263945BF0043D306 /* AppDelegate.swift */,
+				C9469E86263945BF0043D306 /* SceneDelegate.swift */,
+				C9469E88263945BF0043D306 /* ContentView.swift */,
+				C9469E8A263945C10043D306 /* Assets.xcassets */,
+				C9469E8F263945C10043D306 /* LaunchScreen.storyboard */,
+				C9469E92263945C10043D306 /* Info.plist */,
+				C9469E8C263945C10043D306 /* Preview Content */,
+			);
+			path = "otapick-ios-demo";
+			sourceTree = "<group>";
+		};
+		C9469E8C263945C10043D306 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C9469E8D263945C10043D306 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C9469E9A263945C10043D306 /* otapick-ios-demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9469E9B263945C10043D306 /* otapick_ios_demoTests.swift */,
+				C9469E9D263945C10043D306 /* Info.plist */,
+			);
+			path = "otapick-ios-demoTests";
+			sourceTree = "<group>";
+		};
+		C9469EA5263945C10043D306 /* otapick-ios-demoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C9469EA6263945C10043D306 /* otapick_ios_demoUITests.swift */,
+				C9469EA8263945C10043D306 /* Info.plist */,
+			);
+			path = "otapick-ios-demoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9469E80263945BF0043D306 /* otapick-ios-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9469EAB263945C10043D306 /* Build configuration list for PBXNativeTarget "otapick-ios-demo" */;
+			buildPhases = (
+				C9469E7D263945BF0043D306 /* Sources */,
+				C9469E7E263945BF0043D306 /* Frameworks */,
+				C9469E7F263945BF0043D306 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "otapick-ios-demo";
+			productName = "otapick-ios-demo";
+			productReference = C9469E81263945BF0043D306 /* otapick-ios-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9469E96263945C10043D306 /* otapick-ios-demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9469EAE263945C10043D306 /* Build configuration list for PBXNativeTarget "otapick-ios-demoTests" */;
+			buildPhases = (
+				C9469E93263945C10043D306 /* Sources */,
+				C9469E94263945C10043D306 /* Frameworks */,
+				C9469E95263945C10043D306 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9469E99263945C10043D306 /* PBXTargetDependency */,
+			);
+			name = "otapick-ios-demoTests";
+			productName = "otapick-ios-demoTests";
+			productReference = C9469E97263945C10043D306 /* otapick-ios-demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C9469EA1263945C10043D306 /* otapick-ios-demoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9469EB1263945C10043D306 /* Build configuration list for PBXNativeTarget "otapick-ios-demoUITests" */;
+			buildPhases = (
+				C9469E9E263945C10043D306 /* Sources */,
+				C9469E9F263945C10043D306 /* Frameworks */,
+				C9469EA0263945C10043D306 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9469EA4263945C10043D306 /* PBXTargetDependency */,
+			);
+			name = "otapick-ios-demoUITests";
+			productName = "otapick-ios-demoUITests";
+			productReference = C9469EA2263945C10043D306 /* otapick-ios-demoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9469E79263945BE0043D306 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = kentoToriumi;
+				TargetAttributes = {
+					C9469E80263945BF0043D306 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					C9469E96263945C10043D306 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = C9469E80263945BF0043D306;
+					};
+					C9469EA1263945C10043D306 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = C9469E80263945BF0043D306;
+					};
+				};
+			};
+			buildConfigurationList = C9469E7C263945BE0043D306 /* Build configuration list for PBXProject "otapick-ios-demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9469E78263945BE0043D306;
+			productRefGroup = C9469E82263945BF0043D306 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9469E80263945BF0043D306 /* otapick-ios-demo */,
+				C9469E96263945C10043D306 /* otapick-ios-demoTests */,
+				C9469EA1263945C10043D306 /* otapick-ios-demoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9469E7F263945BF0043D306 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9469E91263945C10043D306 /* LaunchScreen.storyboard in Resources */,
+				C9469E8E263945C10043D306 /* Preview Assets.xcassets in Resources */,
+				C9469E8B263945C10043D306 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9469E95263945C10043D306 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9469EA0263945C10043D306 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9469E7D263945BF0043D306 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9469E85263945BF0043D306 /* AppDelegate.swift in Sources */,
+				C9469E87263945BF0043D306 /* SceneDelegate.swift in Sources */,
+				C9469E89263945BF0043D306 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9469E93263945C10043D306 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9469E9C263945C10043D306 /* otapick_ios_demoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9469E9E263945C10043D306 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9469EA7263945C10043D306 /* otapick_ios_demoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9469E99263945C10043D306 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9469E80263945BF0043D306 /* otapick-ios-demo */;
+			targetProxy = C9469E98263945C10043D306 /* PBXContainerItemProxy */;
+		};
+		C9469EA4263945C10043D306 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9469E80263945BF0043D306 /* otapick-ios-demo */;
+			targetProxy = C9469EA3263945C10043D306 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C9469E8F263945C10043D306 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9469E90263945C10043D306 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9469EA9263945C10043D306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C9469EAA263945C10043D306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9469EAC263945C10043D306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"otapick-ios-demo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "otapick-ios-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "otapick.otapick-ios-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9469EAD263945C10043D306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"otapick-ios-demo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "otapick-ios-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "otapick.otapick-ios-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C9469EAF263945C10043D306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "otapick-ios-demoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "otapick.otapick-ios-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/otapick-ios-demo.app/otapick-ios-demo";
+			};
+			name = Debug;
+		};
+		C9469EB0263945C10043D306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "otapick-ios-demoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "otapick.otapick-ios-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/otapick-ios-demo.app/otapick-ios-demo";
+			};
+			name = Release;
+		};
+		C9469EB2263945C10043D306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "otapick-ios-demoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "otapick.otapick-ios-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "otapick-ios-demo";
+			};
+			name = Debug;
+		};
+		C9469EB3263945C10043D306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "otapick-ios-demoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "otapick.otapick-ios-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "otapick-ios-demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9469E7C263945BE0043D306 /* Build configuration list for PBXProject "otapick-ios-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9469EA9263945C10043D306 /* Debug */,
+				C9469EAA263945C10043D306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9469EAB263945C10043D306 /* Build configuration list for PBXNativeTarget "otapick-ios-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9469EAC263945C10043D306 /* Debug */,
+				C9469EAD263945C10043D306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9469EAE263945C10043D306 /* Build configuration list for PBXNativeTarget "otapick-ios-demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9469EAF263945C10043D306 /* Debug */,
+				C9469EB0263945C10043D306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9469EB1263945C10043D306 /* Build configuration list for PBXNativeTarget "otapick-ios-demoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9469EB2263945C10043D306 /* Debug */,
+				C9469EB3263945C10043D306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9469E79263945BE0043D306 /* Project object */;
+}
